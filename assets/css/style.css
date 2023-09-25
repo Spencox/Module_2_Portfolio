@@ -1,0 +1,149 @@
+/* Initial page setup */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+/* Allow smooth scrolling when links are clicked */
+html {
+    scroll-behavior: smooth;
+}
+
+.splash_page {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    background-color: black;
+}
+
+/* dynamic typing feature cited in README */
+.message_box {
+    display: inline-flex;
+    color: white;
+    margin: 25px;
+}
+
+.message_box .static_text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.message_box .dynamic_text {
+    margin-left: 15px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.dynamic_text li{
+    color: chartreuse;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100%{
+        top: -140px;
+    }
+}
+
+.dynamic_text li span {
+    position: relative;
+}
+
+.dynamic_text li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid chartreuse;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+/*---------- nav bar ---------- */
+nav {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: cadetblue;
+}
+
+nav h2 {
+    width: auto;
+    color: #f4ffff ;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4ffff;
+    text-transform: up;
+}
+
+#avatar {
+    position: absolute;
+    height: 90%;
+    right: 0;
+    bottom: 0;
+}
+
+article {
+    margin: 70px;
+}
+
+/* About me section */
+#about_me {
+    width: 100%;
+    height: 100vh;
+    background-color: #3a2020;
+    border: 5px double white;
+}
+
+/* My work section */
+#my_work {
+    width: 100%;
+    height: 100vh;
+    background-color: #3a2020;
+    border: 5px double white;
+}
+
+/* Contact Section */
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #3a2020;
+    border: 5px double white;
+}
+
