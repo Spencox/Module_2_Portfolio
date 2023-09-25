@@ -25,7 +25,7 @@ html {
 .message_box {
     display: inline-flex;
     flex-wrap: wrap;
-    color: white;
+    color: #e8ddcd;
     margin: 25px;
 }
 
@@ -96,7 +96,7 @@ nav {
 
 nav h2 {
     width: auto;
-    color: #f4ffff ;
+    color: #e8ddcd;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -109,7 +109,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f4ffff;
+    font-weight: 600;
+    color: #e8ddcd;
     text-transform: up;
 }
 
@@ -125,7 +126,7 @@ nav ul li a {
     display: flex;
     align-content: center;
     padding-top: 40px;
-    background: whitesmoke;
+    background: #e8ddcd;
 }
 
 .flex_child_1 {
@@ -141,28 +142,28 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: stretch;
     margin: 20px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 /* About me section */
 #about_me {
-    background-color: whitesmoke;
+    background-color: #e8ddcd;
 }
 
-.projects {
-    flex: 1 1 0;
+.flex2child {
+    border: 1px solid black;
+    height: 200px;
     margin: 10px;
-    width: 100%;
 }
 
-#star {
-    flex: 2 0 0;
+.flex2child:first-child {
+    flex-grow: 3;
+    min-height: 400px;
 }
 
 footer {
-    color: whitesmoke;
+    color: #f4ffff;;
     font-size: 35px;
     text-align: center;
     background-color: cadetblue;
