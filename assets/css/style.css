@@ -122,16 +122,14 @@ nav ul li a {
 /* flex box container set up */
 .flex_container {
     display: flex;
-    position: relative;
-    justify-content: space-evenly;
-    border: 1px solid black;
+    border: 3px dashed red;
     margin: 10px;
 }
 
-/* section titles */
-.section_title {
+aside {
+    text-wrap: wrap;
+    width: 400px;
     left: 0;
-    width: 20%;
     color: cadetblue;
     font-size: 75px;
     font-weight: 600;
@@ -162,12 +160,6 @@ nav ul li a {
     width: 100%;
     height: auto;
     background-color: whitesmoke;
-}
-
-#contact div {
-    flex: 1 1 50%;
-    color: crimson;
-    border: 2px solid cadetblue;
 }
 
 footer {
