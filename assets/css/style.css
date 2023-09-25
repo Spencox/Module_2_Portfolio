@@ -24,6 +24,7 @@ html {
 /* dynamic typing feature cited in README */
 .message_box {
     display: inline-flex;
+    flex-wrap: wrap;
     color: white;
     margin: 25px;
 }
@@ -122,44 +123,42 @@ nav ul li a {
 /* flex box container set up */
 .flex_container {
     display: flex;
-    border: 3px dashed red;
-    margin: 10px;
+    align-content: center;
+    padding-top: 40px;
+    background: whitesmoke;
 }
 
-aside {
-    text-wrap: wrap;
-    width: 400px;
-    left: 0;
-    color: cadetblue;
-    font-size: 75px;
+.flex_child_1 {
+    flex: 0 0 260px;
+    font-size: 50px;
     font-weight: 600;
+    color: cadetblue;
     border-right: 5px solid cadetblue;
+    padding: 20px;
+}
+
+.flex_child_2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: stretch;
+    margin: 20px;
+    font-size: 30px;
 }
 
 /* About me section */
 #about_me {
-    width: 100%;
-    height: auto;
     background-color: whitesmoke;
 }
 
-#about_me article {
-    margin: 20px;
-    height: 50%;
+.projects {
+    flex: 1 1 0;
+    margin: 10px;
+    width: 100%;
 }
 
-/* My work section */
-#my_work {
-    width: 100%;
-    height: auto;
-    background-color: whitesmoke;
-}
-
-/* Contact Section */
-#contact {
-    width: 100%;
-    height: auto;
-    background-color: whitesmoke;
+#star {
+    flex: 2 0 0;
 }
 
 footer {
