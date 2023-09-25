@@ -124,7 +124,7 @@ nav ul li a {
 .flex_container {
     display: flex;
     align-content: center;
-    padding-top: 35px;
+    padding-top: 40px;
     background: whitesmoke;
 }
 
@@ -139,8 +139,9 @@ nav ul li a {
 
 .flex_child_2 {
     display: flex;
-    align-content: center;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: stretch;
     margin: 20px;
     font-size: 30px;
 }
@@ -150,13 +151,15 @@ nav ul li a {
     background-color: whitesmoke;
 }
 
-.main_project, .projects {
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+.projects {
+    flex: 1 1 0;
     margin: 10px;
+    width: 100%;
 }
 
+#star {
+    flex: 2 0 0;
+}
 
 footer {
     color: whitesmoke;
