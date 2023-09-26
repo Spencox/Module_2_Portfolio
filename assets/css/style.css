@@ -145,12 +145,74 @@ nav ul li a {
     margin: 20px;
     font-size: 15px;
 }
+/* ----------------- Section: About Me ------------------- */
 
-/* About me section */
 #about_me {
     background-color: #e8ddcd;
 }
 
+/* ----------------- Section: My Work -------------------- */
+
+/* set up flex container for projects */
+.flex_child_3 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+    height: 600px;
+    background: url(/assets/images/demo_project_1.jpeg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.right {
+    width: 50%;
+    min-height: 200px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+.right h1 {
+    padding: 10px 0;
+}
+
+.right p {
+    padding-bottom: 10px;
+}
+
+.right .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #e8ddcd;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.right a {
+    text-decoration: none;
+    text-transform: lowercase;
+    background-color: #e8ddcd;
+    color: cadetblue;
+    : 20px;
+
+}
+
+/* images for work section */
 .flex2child {
     border: 1px solid black;
     height: 200px;
