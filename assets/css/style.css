@@ -151,65 +151,81 @@ nav ul li a {
     background-color: #e8ddcd;
 }
 
+.flex_child_2 p {
+    margin: 10px;
+    font-size: larger;
+}
+
 /* ----------------- Section: My Work -------------------- */
 
 /* set up flex container for projects */
 .flex_child_3 {
-    width: 90%;
-    max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.left {
-    width: 50%;
-    height: 600px;
+.main_project_1 {
+    position: relative;
+    width: 400px;
+    height: 400px;
     background: url(/assets/images/demo_project_1.jpeg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 5px solid cadetblue;
 }
 
-.right {
-    width: 50%;
-    min-height: 200px;
+.main_project_1:hover {
+    transform: translateY(-10px);
+}
+
+.title {
+    position: absolute;
+    width: 75%;
+    max-height: 100px;
     background-color: cadetblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    border-radius: 10px;
     color: black;
+    bottom: 35%;
+    right: -5px;
+    border: 5px solid cadetblue;
 }
 
-.right h1 {
-    padding: 10px 0;
+.title h3 {
+    color: #e8ddcd;
+    padding-bottom: 5px 0;
 }
 
-.right p {
-    padding-bottom: 10px;
+.title p {
+    font-size: smaller;
+    color: #e8ddcd;
 }
 
-.right .btn {
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #e8ddcd;
-    color: black;
-    padding: 10px 20px;
-    display: inline-block;
+/* ---------------------- Add Projects -------------------- */
+/* -------------------------- Here ------------------------ */
+
+.projects {
+    position: relative;
+    min-width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid cadetblue;
 }
 
-.right a {
-    text-decoration: none;
-    text-transform: lowercase;
-    background-color: #e8ddcd;
-    color: cadetblue;
-    : 20px;
+#project_2 {
+    background: url(/assets/images/avatar_2.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
 
+#project_3 {
+    background: url(/assets/images/avatar_3.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 /* images for work section */
