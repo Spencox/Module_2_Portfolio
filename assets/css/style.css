@@ -11,16 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.splash_page {
-    display: flex;
-    width: 100%;
-    height: 30vh;
-    position: relative;
-    align-items: center;
-    justify-content: left;
-    background-color: black;
-}
-
 /* dynamic typing feature cited in README */
 .message_box {
     display: inline-flex;
@@ -81,7 +71,8 @@ html {
     }
   }
 
-/*---------- nav bar ---------- */
+ /* ----------------------- Nav Bar ---------------------- */
+
 nav {
     width: 100%;
     margin: auto;
@@ -92,12 +83,14 @@ nav {
     position: fixed;
     top: 0;
     background-color: cadetblue;
+    z-index: 100;
 }
 
-nav h2 {
+nav a {
     width: auto;
     color: #e8ddcd;
     cursor: pointer;
+    text-decoration: none;
     margin-left: 20px;
 }
 
@@ -114,6 +107,17 @@ nav ul li a {
     text-transform: up;
 }
 
+.splash_page {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    background-color: black;
+}
+
+/* avatar set up and sizing */
 #avatar {
     position: absolute;
     height: 90%;
@@ -125,42 +129,155 @@ nav ul li a {
 .flex_container {
     display: flex;
     align-content: center;
-    padding-top: 40px;
     background: #e8ddcd;
+    padding: 50px;
 }
 
 .flex_child_1 {
-    flex: 0 0 260px;
-    font-size: 50px;
+    flex: 0 0 200px;
+    font-size: 35px;
     font-weight: 600;
     color: cadetblue;
     border-right: 5px solid cadetblue;
-    padding: 20px;
 }
 
 .flex_child_2 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    margin: 20px;
+    padding-left: 10px;
     font-size: 15px;
 }
+/* ----------------- Section: About Me ------------------- */
 
-/* About me section */
 #about_me {
     background-color: #e8ddcd;
 }
 
-.flex2child {
-    border: 1px solid black;
-    height: 200px;
-    margin: 10px;
+.flex_child_2 p {
+    margin: 15px;
+    letter-spacing: 1px;
+    font-size: x-large;
 }
 
-.flex2child:first-child {
-    flex-grow: 3;
-    min-height: 400px;
+/* ----------------- Section: My Work -------------------- */
+
+/* set up flex container for projects */
+.flex_child_3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
+.main_project_1 {
+    position: relative;
+    flex: 2;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 10px;
+    background: url(/assets/images/demo_project_1.jpeg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid cadetblue;
+}
+
+.main_project_1:hover {
+    transform: translateY(-10px);
+}
+
+.title {
+    flex: 1;
+    position: absolute;
+    width: 75%;
+    max-height: 100px;
+    background-color: cadetblue;
+    color: black;
+    bottom: 35%;
+    right: -5px;
+    border: 5px solid cadetblue;
+}
+
+.title h3 {
+    color: #e8ddcd;
+    padding-bottom: 5px 0;
+}
+
+.title p {
+    font-size: smaller;
+    color: #e8ddcd;
+}
+
+/* ---------------------- Add Projects ------------------- */
+/* -------------------------- Here ----------------------- */
+
+.projects {
+    position: relative;
+    flex: 1;
+    min-width: 400px;
+    min-height: 200px;
+    margin: 10px;
+    border: 5px solid cadetblue;
+}
+
+.projects:hover {
+    transform: translateY(-10px);
+}
+
+#project_2 {
+    background: url(/assets/images/avatar_2.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#project_3 {
+    background: url(/assets/images/avatar_3.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#project_4 {
+    background: url(/assets/images/avatar_4.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#project_5 {
+    background: url(/assets/images/avatar_5.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#project_6 {
+    background: url(/assets/images/avatar_6.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#project_7 {
+    background: url(/assets/images/avatar_7.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+/* ----------------- Section: My Work -------------------- */
+
+#contact > * {
+    color: black;
+    font-weight: 600;
+    margin-left: 200px;
+    font-size: x-large;
+    border-bottom: 5px solid cadetblue; 
+}
+
+/* ----------------- Section: My Work -------------------- */
 
 footer {
     color: #f4ffff;;
@@ -169,14 +286,12 @@ footer {
     background-color: cadetblue;
 }
 
-/* dynamically size for different devices */
+/* ----------------- Screen Size Adjust ------------------ */
 
-/* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
    
   }
   
-/* Cards are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
    
   }
