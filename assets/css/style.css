@@ -176,7 +176,7 @@ nav ul li a {
     min-width: 400px;
     min-height: 400px;
     margin: 10px;
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/demoProject1.png"); 
+    background-image: url("/assets/images/demoProject1.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -226,7 +226,7 @@ nav ul li a {
 }
 
 #project_2 {
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/avatar2.png"); 
+    background-image: url('/assets/images/avatar2.png'); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
