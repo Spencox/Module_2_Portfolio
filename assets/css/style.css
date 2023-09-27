@@ -176,7 +176,7 @@ nav ul li a {
     min-width: 400px;
     min-height: 400px;
     margin: 10px;
-    background: url(/assets/images/demo_project_1.jpeg); 
+    background: url("/assets/images/demo_project_1.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -226,42 +226,42 @@ nav ul li a {
 }
 
 #project_2 {
-    background: url(/assets/images/avatar_2.jpg); 
+    background: url("/assets/images/avatar_2.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_3 {
-    background: url(/assets/images/avatar_3.jpg); 
+    background: url("/assets/images/avatar_3.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_4 {
-    background: url(/assets/images/avatar_4.jpg); 
+    background: url("/assets/images/avatar_4.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_5 {
-    background: url(/assets/images/avatar_5.jpg); 
+    background: url("/assets/images/avatar_5.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_6 {
-    background: url(/assets/images/avatar_6.jpg); 
+    background: url("/assets/images/avatar_6.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_7 {
-    background: url(/assets/images/avatar_7.jpg); 
+    background: url("/assets/images/avatar_7.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
