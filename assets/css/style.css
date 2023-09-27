@@ -226,7 +226,7 @@ nav ul li a {
 }
 
 #project_2 {
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/avatar2.png"); 
+    background: url("https://Spencox.github.io/Module_2_Portfolio/assets/images/avatar2.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -304,10 +304,9 @@ footer {
         font-size: x-small;
     }
     
-    
     /* adjust dynamic text */
     .message_box .static_text {
-        font-size: 15px;
+        font-size: 12px;
     }
     
     .message_box .dynamic_text {
@@ -316,7 +315,13 @@ footer {
     }
     
     .dynamic_text li{
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    @keyframes slide {
+        100%{
+            top: -72px;
+        }
     }
 
     /* adjust section titles */
