@@ -4,31 +4,22 @@
 
 A single page webpage to show case my professional developer portfolio and key information about myself. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+My motivation for this project is to have an attractive and well designed place to put my work portfolio projects. This will become the platform that I can share with future potential employers and friends to showcase my work. It allows a single place where I can link to my portfolio web development projects. I learned that CSS is almost unlisted in it's capabilities and you can really be creative. Flexboxes are an invaluable tool in the construction and mobility of the project. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Navigation of the site is simple and straightforward:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Clicking the Name "Spencer Cox" on nav bar will scroll to the home position shown below.
+Clicking the links to the left on the nav bar "About Me, My Work, Contact" will auto scroll the page to the top of the section.
 
-![alt text](assets/images/screenshot.png)
+The dynamic typing effect was a fun mini-project to work on and I have credited the youtube creator for the tutorial. 
+
+![Main Page](assets/screenshots/main_page.png)
+
+If you choose the "My Work" link in the nav bar you will be taken to the portfolio projects section. You can hover over the pictures of the screenshots of the project and click the link to open the project in a new tab. My only completed portfolio project is at the top of the section can be clicked to link directly to the site. I have included 6 placeholders for future projects to help the page scroll better.
+
+![Main Page](assets/screenshots/my_work.png)
 
 ## Credits
 
@@ -36,6 +27,3 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 2. CodingNepal. (2024, February 24). CSS Text Typing Animation | Multiple Text Typing Animation. YouTube. https://www.youtube.com/watch?v=m0o0QNpY9-0
 
-## Features
-
-If your project has a lot of features, list them here.
