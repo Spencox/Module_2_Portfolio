@@ -177,7 +177,7 @@ nav ul li a {
     min-width: 400px;
     min-height: 400px;
     margin: 10px;
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/demoProject1.png"); 
+    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/demoProject1.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,16 +225,22 @@ nav ul li a {
 .projects:hover {
     transform: translateY(-10px);
 }
+#project_2 {
+    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/02_project.png"); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
 
 #project_3 {
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/avatar3.png"); 
+    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar3.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_4 {
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/avatar4.png"); 
+    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar4.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -248,14 +254,14 @@ nav ul li a {
 }
 
 #project_6 {
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/avatar6.png"); 
+    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar6.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_7 {
-    background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/avatar7.png"); 
+    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar7.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
