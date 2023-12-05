@@ -226,13 +226,6 @@ nav ul li a {
     transform: translateY(-10px);
 }
 
-#project_2 {
-    background: url("https://Spencox.github.io/Module_2_Portfolio/assets/images/Group_project.png"); 
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-}
-
 #project_3 {
     background: url("https://spencox.github.io/Module_2_Portfolio/assets/images/avatar3.png"); 
     background-repeat: no-repeat;
