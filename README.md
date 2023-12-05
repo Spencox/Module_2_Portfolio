@@ -15,11 +15,11 @@ Clicking the links to the left on the nav bar "About Me, My Work, Contact" will 
 
 The dynamic typing effect was a fun mini-project to work on and I have credited the youtube creator for the tutorial. 
 
-![Main Page](assets/screenshots/main_page.png)
+![Main Page](public/assets/screenshots/main_page.png)
 
 If you choose the "My Work" link in the nav bar you will be taken to the portfolio projects section. You can hover over the pictures of the screenshots of the project and click the link to open the project in a new tab. My only completed portfolio project is at the top of the section can be clicked to link directly to the site. I have included 6 placeholders for future projects to help the page scroll better.
 
-![Main Page](assets/screenshots/my_work.png)
+![Main Page](public/assets/screenshots/my_work.png)
 
 ## Credits
 
