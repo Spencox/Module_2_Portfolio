@@ -177,9 +177,9 @@ nav ul li a {
     min-width: 400px;
     min-height: 400px;
     margin: 10px;
-    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/demoProject1.png"); 
+    background-image: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/01_nimbus_weather.png"); 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
     border: 5px solid cadetblue;
 }
@@ -226,42 +226,42 @@ nav ul li a {
     transform: translateY(-10px);
 }
 #project_2 {
-    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/02_project.png"); 
+    background-image: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/02_project.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_3 {
-    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar3.png"); 
+    background-image: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/03_gmarm.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_4 {
-    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar4.png"); 
+    background-image: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/04_note_taker.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_5 {
-    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar5.png"); 
+    background-image: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/05_accessability.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_6 {
-    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar6.png"); 
+    background-image: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/06_code_quiz.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 #project_7 {
-    background: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/avatar7.png"); 
+    background-image: url("https://spencox.github.io/Spencer-Professional-Portfolio/assets/images/07_calendar.png"); 
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
